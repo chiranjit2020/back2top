@@ -1,4 +1,4 @@
-# BACK2TOP JS
+# BACK2TOP.JS
 ###### Back2Top Js is a small library to create a back to top button using Vanilla JavaScript 
 
 ### HTML
