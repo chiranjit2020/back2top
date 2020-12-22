@@ -9,18 +9,24 @@
 			width: 960px;
 			margin: 0 auto;
 		}
-		button{
-			position: fixed;
-			right: 2%;
-			bottom: 2%;
-			opacity: 0;
-			visibility: hidden;
-			padding: 10px 18px;
-			background-color: #123;
-			color: #fff;
-			font-family: sans-serif;
-			border: none;
-
+		button#back2top{
+		    position: fixed;
+		    right: 2%;
+		    bottom: 2%;
+		    opacity: 0;
+		    visibility: hidden;
+		    
+		    /*For better looking button*/
+		    font-family: sans-serif;
+		    font-size: 14px;
+		    color: #fff;
+		    line-height: 1.3;
+		    background-color: #123;
+		    border: none;
+		    outline: none;
+		    cursor: pointer;
+		    padding: 10px 18px;
+		    margin: 0;
 		}
 	</style>
 </head>
@@ -33,13 +39,13 @@
 		<h1>You have reached to the bottom</h1>
 	</div>
 
-	<button>BACK2TOP</button>
+	<button id="back2top">BACK2TOP</button>
 
 	<!-- Add BACK2TOP.JS or BACK2TOP.MIN.JS file -->
 	<!-- <script src="back2top.js"></script> -->
 	<script src="back2top.min.js"></script>
 	<script>
-		const button = document.querySelector("button");
+		const button = document.querySelector("#back2top");
 
 		// Call the BACK2TOP Function
 		BACK2TOP(button, 200);
