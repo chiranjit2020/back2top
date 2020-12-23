@@ -39,6 +39,8 @@ button#back2top{
     const button = document.querySelector("#back2top");
 
     // Call the BACK2TOP Function
+    // BACK2TOP(element, offsetToValue)
+    // offsetValue = When the button will appear on the screen
     BACK2TOP(button, 200);
 </script>
 ```
