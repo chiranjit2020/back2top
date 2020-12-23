@@ -42,3 +42,21 @@ button#back2top{
     BACK2TOP(button, 200);
 </script>
 ```
+### How To Control Animation
+```css
+/*
+* BACK2TOP(htmlElement, offsetValue, transition-property, transition-duration, transition-timing-function, transition-delay);
+
+* Transition Property will be Visibility, Opacity and Transform
+
+* Default value is set for - 
+    transition-property = all,
+    transition-duration = 300,
+    transition-timing-function = ease,
+    transition-delay = 0.
+
+* You can avoid those above parameters if you want.
+
+* Please give a ★ if you find this useful.
+*/
+```
