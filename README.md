@@ -31,7 +31,7 @@ button#back2top{
 }
 ```
 ### JavaScript
-```javascript
+```
 //Add BACK2TOP.JS or BACK2TOP.MIN.JS file
 //<script src="back2top.js"></script>
 <script src="back2top.min.js"></script>
